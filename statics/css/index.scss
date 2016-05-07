@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+@import "bootstrap/stylesheets/_bootstrap.scss";
+
+.f-oh{
+  overflow: hidden;
+}
+body{
+  background: url('../../statics/images/subject/images/mainbg.gif') repeat;
+}
+$global-icons:url('../../statics/images/subject/images/globalicon.png') no-repeat;
+.header{
+  .change-lan{
+
+        .lan{
+          padding-top: 25px;
+          padding-bottom: 5px;
+          width: 180px;
+          float: right;
+
+          a{
+            padding-left: 5px;
+            color:$gray;
+            font-size:12px;
+            display: block;
+            float: right;
+            width: 78px;
+            line-height: 10px;
+            b{
+              font-weight: normal;
+              padding-left: 5px;
+              text-align: left;
+            }
+            .icon{
+              background: $global-icons;
+              width: 16px;
+              height: 11px;
+              float: left;
+
+            }
+            .chinese{
+              background-position: -16px -16px;
+            }
+            .english{
+              background-position: -81px -16px;
+            }
+
+          }
+        }
+
+    .tel{
+      width: 200px;
+      clear: both;
+      .tel-icon{
+        float: left;
+        font-size: 16px;
+        color:$gray-light;
+        padding-top: 5px;
+      }
+      .tel-num{
+        float: left;
+        font-size: 22px;
+        color:$gray;
+      }
+    }
+
+
+
+
+  }
+}
+
+
+
+.nav{
+  background:url('../../statics/images/subject/images/menu-bg.png') repeat;
+  height: 47px;
+  box-shadow: 1px 2px 3px gray;
+  overflow: hidden;
+  ul{
+    overflow: hidden;
+    li{
+      list-style: none;
+
+      line-height: 50px;
+      a{
+        color:white;
+        padding: 0 30px;
+        line-height: 45px;
+        display: block;
+        text-decoration: none;
+
+
+      }
+      a:hover{
+        border-bottom: 3px solid #ffefcc;
+      }
+    }
+  }
+}
