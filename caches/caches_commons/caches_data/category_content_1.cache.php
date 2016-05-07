@@ -16,7 +16,7 @@ return array (
     'description' => '',
     'parentdir' => '',
     'catdir' => 'about',
-    'url' => 'http://localhost/taomujian/html/about/',
+    'url' => 'http://localhost/taomujiannew/html/about/',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (

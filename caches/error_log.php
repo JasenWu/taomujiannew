@@ -716,3 +716,17 @@
 <?php exit;?>05-07 15:32:55 | 2 | chmod(): Operation not permitted | phpcms/modules/formguide/classes/formguide.class.php | 35
 <?php exit;?>05-07 15:32:55 | 2 | chmod(): Operation not permitted | phpcms/modules/formguide/classes/formguide.class.php | 35
 <?php exit;?>05-07 15:32:55 | 2 | chmod(): Operation not permitted | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>05-07 17:03:12 | 2 | chmod(): Operation not permitted | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>05-07 17:03:12 | 2 | chmod(): Operation not permitted | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>05-07 17:03:12 | 2 | chmod(): Operation not permitted | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>05-07 17:03:12 | 2 | chmod(): Operation not permitted | phpcms/modules/admin/classes/cache_api.class.php | 273
+<?php exit;?>05-07 17:03:13 | 2 | chmod(): Operation not permitted | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>05-07 17:03:13 | 2 | chmod(): Operation not permitted | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>05-07 17:03:13 | 2 | chmod(): Operation not permitted | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>05-07 17:03:13 | 2 | chmod(): Operation not permitted | phpcms/modules/admin/classes/cache_api.class.php | 394
+<?php exit;?>05-07 17:03:13 | 2 | chmod(): Operation not permitted | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>05-07 17:03:13 | 2 | chmod(): Operation not permitted | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>05-07 17:03:13 | 2 | chmod(): Operation not permitted | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>05-07 17:03:13 | 2 | chmod(): Operation not permitted | phpcms/modules/formguide/classes/formguide.class.php | 35
+<?php exit;?>05-07 17:03:14 | 2 | fsockopen(): php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known | phpcms/libs/classes/http.class.php | 84
+<?php exit;?>05-07 17:03:14 | 2 | fsockopen(): unable to connect to juhe.phpcms.cn:80 (php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known) | phpcms/libs/classes/http.class.php | 84

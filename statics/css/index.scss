@@ -98,3 +98,43 @@ $global-icons:url('../../statics/images/subject/images/globalicon.png') no-repea
     }
   }
 }
+.banner{
+  padding: 20px 0;
+}
+
+.main{
+  padding-top: 10px;
+  padding-bottom: 20px;
+
+  .three-column{
+    padding-top: 20px;
+    title{
+      display: block;
+      line-height: 39px;
+      width: 190px;
+      color:white;
+      text-align: center;
+      background:  url('../../statics/images/subject/images/titlebg.png') repeat;
+    }
+    article{
+      padding: 15px;
+      background: #f4ecd7;
+      border-radius: 5px;
+
+    }
+  }
+}
+.footer{
+  height: 117px;
+  color:white;
+
+  background: url('../../statics/images/subject/images/footerbg.png') repeat;
+  .content{
+    padding-top: 30px;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 18px;
+    word-spacing:3px;
+
+  }
+}

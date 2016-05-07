@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23ec286f-ff27-4a40-aefa-88397aac4457" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caches/caches_template/default/content/header_page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caches/caches_template/default/content/page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/caches/caches_template/default/member/mini.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caches/caches_commons/caches_data/category_content.cache.php" afterPath="$PROJECT_DIR$/caches/caches_commons/caches_data/category_content.cache.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caches/caches_commons/caches_data/category_content_1.cache.php" afterPath="$PROJECT_DIR$/caches/caches_commons/caches_data/category_content_1.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caches/caches_commons/caches_data/category_items_1.cache.php" afterPath="$PROJECT_DIR$/caches/caches_commons/caches_data/category_items_1.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caches/caches_commons/caches_data/category_items_2.cache.php" afterPath="$PROJECT_DIR$/caches/caches_commons/caches_data/category_items_2.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caches/caches_commons/caches_data/category_items_3.cache.php" afterPath="$PROJECT_DIR$/caches/caches_commons/caches_data/category_items_3.cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caches/caches_commons/caches_data/sitelist.cache.php" afterPath="$PROJECT_DIR$/caches/caches_commons/caches_data/sitelist.cache.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caches/caches_template/default/content/footer.php" afterPath="$PROJECT_DIR$/caches/caches_template/default/content/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caches/caches_template/default/content/header.php" afterPath="$PROJECT_DIR$/caches/caches_template/default/content/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caches/caches_template/default/content/index.php" afterPath="$PROJECT_DIR$/caches/caches_template/default/content/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caches/error_log.php" afterPath="$PROJECT_DIR$/caches/error_log.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpcms/templates/default/content/footer.html" afterPath="$PROJECT_DIR$/phpcms/templates/default/content/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpcms/templates/default/content/header.html" afterPath="$PROJECT_DIR$/phpcms/templates/default/content/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpcms/templates/default/content/index.html" afterPath="$PROJECT_DIR$/phpcms/templates/default/content/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/css/bootstrap/stylesheets/bootstrap/_variables.scss" afterPath="$PROJECT_DIR$/statics/css/bootstrap/stylesheets/bootstrap/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/css/index.css" afterPath="$PROJECT_DIR$/statics/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statics/css/index.scss" afterPath="$PROJECT_DIR$/statics/css/index.scss" />
     </list>
     <ignored path="taomujiannew.iws" />
@@ -62,31 +54,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phpcms/templates/default/content/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.588235">
-              <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+            <state vertical-scroll-proportion="-5.2941175">
+              <caret line="18" column="59" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/statics/css/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.2941175">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.54545456">
+              <caret line="109" column="22" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -95,8 +77,8 @@
       <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phpcms/templates/default/content/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="6" />
+            <state vertical-scroll-proportion="-1.1764706">
+              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -105,18 +87,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phpcms/templates/default/content/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state vertical-scroll-proportion="-15.625">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/statics/css/bootstrap/stylesheets/bootstrap/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.3137255">
+              <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+            <state vertical-scroll-proportion="-1.6666666">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -163,10 +155,11 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/phpcms/templates/default/content/header.html" />
-        <option value="$PROJECT_DIR$/statics/css/index.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/phpcms/templates/default/content/footer.html" />
         <option value="$PROJECT_DIR$/phpcms/templates/default/content/index.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/statics/css/bootstrap/stylesheets/bootstrap/_variables.scss" />
+        <option value="$PROJECT_DIR$/statics/css/index.scss" />
       </list>
     </option>
   </component>
@@ -452,6 +445,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6666666">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpcms/templates/default/content/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1764706">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32751092">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.25">
@@ -460,50 +477,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/statics/css/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.2941175">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phpcms/templates/default/content/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.588235">
-          <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phpcms/templates/default/content/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="6" />
+        <state vertical-scroll-proportion="-5.2941175">
+          <caret line="18" column="59" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phpcms/templates/default/content/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state vertical-scroll-proportion="-15.625">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/statics/css/bootstrap/stylesheets/bootstrap/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        <state vertical-scroll-proportion="-4.3137255">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/css/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54545456">
+          <caret line="109" column="22" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
           <folding />
         </state>
       </provider>
