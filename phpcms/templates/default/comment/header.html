@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={CHARSET}" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+<meta name="keywords" content="{$SEO['keyword']}">
+<meta name="description" content="{$SEO['description']}">
+<link rel="stylesheet" href="{IMG_PATH}common.css" media="screen" type="text/css" />
+<link rel="stylesheet" href="{IMG_PATH}index.css" type="text/css"/>
+<link rel="stylesheet" href="{IMG_PATH}article.css" type="text/css"/>
+<script src="{IMG_PATH}pubfunc0.js" language="javascript" type="text/javascript"></script>
+<script src="{IMG_PATH}j0000000.js" type="text/javascript"></script>
+<script src="{IMG_PATH}jquery00.js" type="text/javascript"></script>
+<script type="text/javascript" language="javascript" src="{IMG_PATH}marquee0.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.slider').smallslider({
+        onImageStop:true,
+        switchEffect:'fadeOut',switchEase: 'easeOutSine',
+        switchPath: 'up',switchMode: 'hover',
+        showText:false,textSwitch:2,switchTime:600
+    });
+	$('#marquee').kxbdMarquee({isEqual:true});
+});
+ </script>
+<style>
+#marquee{width:670px;height:148px;overflow:hidden;}
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="header_top">
+    <div class="rlink"><a href="http://www.bbscms.net/">建站超市</a> | <a href="javascript:void(0)" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('{siteurl($siteid)}');">设为首页</a> | <a href="javascript:window.external.AddFavorite('{siteurl($siteid)}','{$SEO['site_title']}')">加入收藏</a></div>
+    <div class="logo"><a href="{siteurl($siteid)}" ><img src="{IMG_PATH}logo.gif" alt="{$SEO['site_title']}" /></a></div>
+    <div class="search">
+	  <form name="formsearch" action="{APP_PATH}index.php" method="get" target="_blank">
+				<input type="hidden" name="m" value="search"/>
+				<input type="hidden" name="c" value="index"/>
+				<input type="hidden" name="a" value="init"/>
+				<input type="hidden" name="typeid" value="{$typeid}" id="typeid"/>
+				<input type="hidden" name="siteid" value="{$siteid}" id="siteid"/>
+                <input type="text" class="search-keyword" id="search-keyword" name="q"/>
+				<button type="submit" class="search-submit"></button>
+            </form>
+    </div>
+  </div>
+  <div class="nav_bg clear">
+    <div class="nav">
+      <ul>
+		{pc:content action="category" catid="0" num="25" siteid="$siteid" order="listorder ASC"}
+			<li><a href='{siteurl($siteid)}'><span>首页</span></a></li>
+			{loop $data $r}
+			<li><a href='{$r[url]}' ><span>{$r[catname]}</span></a></li>
+			{/loop}
+        {/pc}
+
+      </ul>
+    </div>
+  </div>
+</div>

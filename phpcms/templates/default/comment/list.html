@@ -1,0 +1,62 @@
+{template "content","header"}
+<div class="bnr_bg">
+  <div class="bnr_c center clear"> <a href="" class="baoming" target="_blank"></a> </div>
+</div>
+<div class="piped">
+  <div class="pipedinfo">
+  <li>
+	{pc:announce  action="lists" siteid="$siteid" num="1"}
+{loop $data $r}
+<a href="{APP_PATH}index.php?m=announce&c=index&a=show&aid={$r['aid']}">{$r['title']}</a>
+{/loop}
+{/pc}
+	</li>
+  </div>
+</div>
+<div class="w950 center">
+  <div class="art_bg w950 center">
+    <div class="art_bg_top"></div>
+    <div class="art_content">
+      <div class="pleft">
+        <div class="place"><a href="{siteurl($siteid)}">首页</a><span> > </span>{catpos($catid)} </div>
+        <div class="list">
+          <ul>
+		  {pc:content action="lists" catid="$catid" num="25" order="id DESC" page="$page"}
+{loop $data $r}
+	<li><a href="{$r[url]}" class="title">{$r[title]}</a><span>{date('Y-m-d',$r[inputtime])}</span></li>
+{/loop}
+{/pc}
+          </ul>
+        </div>
+        <div class="dede_pages">
+          <ul class="pagelist">
+            <li><span class="pageinfo">{$pages}</span></li>
+          </ul>
+        </div>
+        <div class="to_top">
+          <h2><a href="{siteurl($siteid)}">返回首页</a><a href=""><img src="{IMG_PATH}top-btn0.gif" /></a></h2>
+        </div>
+      </div>
+      <div class="sub_list">
+        <div class="ltitle">解决方案</div>
+        <ul class="topic">
+        </ul>
+        <div class="ltitle">联系我们</div>
+        <ul class="contact">
+          招生就业办<br />
+          联系人：宗老师<br />
+          联系电话：0931-8857166<br />
+          E-mail:zongyinxia@gszjedu.com<br />
+          在线咨询： <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=860275582&site=qq&menu=yes"><img border="0" src="{IMG_PATH}pa000000.gif" alt="点击这里给我发消息"></a> <br />
+          <br />
+          教学管理中心<br />
+          联系人：徐老师<br />
+          联系电话：0931-8840266<br />
+          E-mail：xujinshui@gszjedu.com
+        </ul>
+      </div>
+    </div>
+    <div class="art_bg_bottom"></div>
+  </div>
+</div>
+{template "content","footer"}

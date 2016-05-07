@@ -1,0 +1,92 @@
+{template "content","header"}
+<div class="banner clear">
+  <div class="banner_c clear center">
+    <div class="banner_ico smallslider slider">
+      <li><a  href="http://www.sndasoft.com" target="_blank"><img src="{IMG_PATH}ad6.jpg" height="302" width="950" alt="网络工程师" /></a></li>
+         <li><a  href="http://www.sndasoft.com" target="_blank"><img src="{IMG_PATH}ad5.jpg" height="302" width="950" alt="大学生就业能力提升课程" /></a></li>
+         <li><a  href="http://www.sndasoft.com" target="_blank"><img src="{IMG_PATH}ad4.jpg" height="302" width="950" alt="大学先修班" /></a></li>
+         <li><a  href="http://www.sndasoft.com" target="_blank"><img src="{IMG_PATH}ad1.jpg" height="302" width="950" alt="技术培训" /></a></li>
+    </div>
+  </div>
+</div>
+<div class="piped">
+  <div class="pipedinfo">
+    <li>
+	{pc:announce  action="lists" siteid="$siteid" num="1"}
+{loop $data $r}
+<a href="{APP_PATH}index.php?m=announce&c=index&a=show&aid={$r['aid']}">{$r['title']}</a>
+{/loop}
+{/pc}
+	</li>
+  </div>
+</div>
+<div class="w943 center clear indexlist">
+  <div class="pleft">
+    <div class="xnxw">
+      <div class="listtitle"><span class="left">产品展示</span></div>
+      <div  id="marquee">
+        <ul>
+		{pc:content  action="list" catid="$r[catid]" thumb="1" order="listorder DESC" num="8"}
+{loop $data $r}
+<li class="fencaipic"><a href="{$r[url]}"><img src='{thumb($r[thumb],120,0)}' border='0' width='120' height='120' alt='{$r[title]}'></a></li>
+{/loop}
+{/pc}
+        </ul>
+      </div>
+      <div class="morenews"><a href="/">更多>></a></div>
+    </div>
+  </div>
+  <div class="pright">
+    <div class="xxgk">
+      <div class="listtitle"><span class="left">企业简介</span></div>
+      <div class="piclist"> <a href="http://www.gszjedu.com/plus/diy.php?action=post&diyid=1"><img src="{IMG_PATH}artpic00.gif" alt="" /></a> </div>
+      <div class="listinfo">
+        <p>吉林盛大软件拥有一支专业的开发团队，专业高效的多样化WEB应用解决方案，为中小企业网站建设提供动力......<span><a href="/">更多信息</a></span></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w943 center clear indexlist">
+  <div class="nxlist xszp">
+    <div class="listtitle"><span class="left">技术资料</span></div>
+    <div class="contentlist">
+      <ul class="list2">
+	  {pc:content action="lists" catid="$r[catid]" order="id" num="5"cache="3600"}
+{loop $data $r}
+<li><a href="{$r[url]}" target="_blank">{$r[title]}</a></li>
+{/loop}
+{/pc}
+        <li><a href="{$r[url]}" target="_blank">{$r[title]}</a></li>
+      </ul>
+    </div>
+    <div class="morenews"><a href="/">更多>></a></div>
+  </div>
+  <div class="nxlist zsk">
+    <div class="listtitle"><span class="left">服务信息</span></div>
+    <div class="contentlist">
+      <ul class="list2">
+        {pc:content action="lists" catid="$r[catid]" order="id" num="5"cache="3600"}
+{loop $data $r}
+<li><a href="{$r[url]}" target="_blank">{$r[title]}</a></li>
+{/loop}
+{/pc}
+      </ul>
+    </div>
+    <div class="morenews"><a href="/">更多>></a></div>
+  </div>
+</div>
+<div class="w943 center clear indexlist">
+  <div class="flinks">
+    <div class="listtitle"><span class="left">友情链接</span></div>
+    <div class="flinks_url">
+      <ul class="list2">
+	  {pc:link  action="type_list" linktype="1" siteid="$siteid" order="listorder DESC" num="10" return="dat"}
+		{loop $dat $v}
+              <li><a href="{$v[url]}" target="_blank">{$v[name]}</a></li>
+		{/loop}
+	  {/pc}
+      </ul>
+    </div>
+  </div>
+</div>
+{template "content","footer"}

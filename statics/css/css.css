@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,input,ul,li,h1,h2,h3,h4,h5,h6,table,td,tr{margin:0; padding:0; list-style:none; font-family:Microsoft YaHei,SimSun; font-size:12px}
+body{background:url(../images/bg.png) repeat-x}
+img{border:none}
+a{text-decoration:none; outline:none}
+.clear{clear:both; height:0; line-height:0; font-size:0}
+.clearfix:after{content:'.';display:block;height:0;clear:both;visibility:hidden} 
+.clearfix{*+height:1%;}
+html,body{_height:100%;overflow-x:hidden;}
+#header{position:fixed;_position:absolute;z-index:1000;right:0px;top:100px;}
+.customer{width:155px;height:243px;background:url(../images/customer.png) no-repeat}
+.customer ul{padding:8px 10px 0 34px;}
+.ansow{background:url(../images/ansow.png) no-repeat;display:inline-block;*display:inline;*zoom:1;width:28px;height:24px;vertical-align:middle}
+.tel{background:url(../images/tel.png) no-repeat;display:inline-block;*display:inline;*zoom:1;width:14px;height:23px;vertical-align:middle}
+.customer li{border-bottom:1px solid #eee;padding:6px 0;text-align: left;text-indent: 10px ;}
+.color01{color:#62a50a;}
+.base{width:1000px; margin:0 auto; overflow:hidden}
+.mt10{margin-top:10px}
+.top{height:132px; padding-top:30px}
+.top p{color:#999; height:20px; line-height:20px; text-align:right; padding-right:10px}
+.top p a{color:#999; margin:0 8px}
+.top p a:hover{color:#105808}
+.logo{height:91px;background:url(../images/top.png);}
+.nav{height:61px; background:url(../images/navBg.png) repeat-x; line-height:60px; width:100%}
+.nav ul{width:1000px; margin:0 auto; overflow:hidden}
+.nav ul li{font-size:16px; color:#fff; width:125px; text-align:center; background:url(../images/navLiBg.png) right top no-repeat; float:left}
+.nav ul li a{color:#fff}
+.nav ul li a:hover{color:#fbf77c}
+.nav ul li.nobg{background:none}
+.banner{height:300px; width:100%; }
+#slide-index{min-width:1000px;width:auto; height:300px; overflow:hidden; position:relative;}
+#slide-index .slides{ min-width:1000px; width:auto; height:300px; }
+#slide-index .slide{ min-width:1000px; height:300px; float:left; position:relative; }
+#slide-index .image{ z-index:1;position:absolute; width:1920px; height:300px }
+#slide-index .text, #slide-index .button { z-index:2;position:absolute; top:-500px; }
+#slide-index .button{ display:none; width:138px;}
+#slide-index .control{ position:absolute; bottom:25px; left:440px; width:100%; text-align:center; height:4px; cursor:pointer; z-index:40; _overflow:hidden}
+#slide-index .control a{ width:30px; height:4px; cursor:pointer; display:inline-block; background:#eee; margin-right:6px;}
+#slide-index .control a:hover, #slide-index .control a.active{ background:#105808}
+.autoMaxWidth{ overflow:hidden; position:relative;height:232px; }
+.left,.middle,.right,.productshow{border:1px #e7eee7 solid; background:url(../images/titleBg.png) repeat-x; height:250px}
+.left h2,.middle h2,.productshow h2{height:40px; background:url(../images/h2Bg.png) no-repeat; text-indent:15px; font-size:14px; color:#105808; line-height:30px; }
+.left h2 em,.middle h2 em,.productshow h2 em{color:#999; font-family:arial; font-size:12px; margin-left:10px;font-style:normal; font-weight:normal}
+.left h2 span,.middle h2 span,.productshow h2 span{float:right; margin-right:10px; display:inline; font-weight:normal; font-size:12px}
+.left h2 span a,.middle h2 span a,.productshow h2 a{color:#999}
+.left h2 span a:hover,.middle h2 span a:hover,.productshow h2 a:hover{color:#105808}
+.left{width:430px; float:left;}
+.left p{line-height:25px; text-indent:2em; color:#484848; padding:0 10px}
+.left p img{float:left; margin-right:10px}
+.middle{width:310px; float:left; margin-left:20px; display:inline}
+.middle ul{padding:0 10px}
+.middle ul li{line-height:26px; background:url(../images/newsIcon.png) left center no-repeat; text-indent:10px}
+.middle ul li span{float:right; font-family:arial; color:#999;}
+.middle ul li a{color:#484848}
+.middle ul li a:hover{color:#105808}
+.right{float:right; width:220px; border:none; background:url(../images/lianxiBg.png) no-repeat; padding-top:75px; height:175px}
+.right p{color:#484848; line-height:28px; padding:0 5px}
+.productshow{height:280px;position:relative;  overflow:hidden}
+.productshow .scrollcontainer{width:1000px;height:240px;overflow:hidden;position:relative; margin:0px auto 5px}
+.productshow .scrollcontainer ul{width:20000px;position:absolute;left:0px;top:0px;}
+.productshow .scrollcontainer li{float:left;width:180px;height:240px;text-align:center;margin:0 10px;_display:inline;overflow:hidden}
+.productshow .scrollcontainer li.last{background:none;}
+.productshow .scrollcontainer li div{width:180px;height:240px;overflow:hidden;text-align:center;}
+.productshow .scrollcontainer li img{width:174px;height:196px; display:block; padding:2px; border:1px #ccc solid}
+.productshow .scrollcontainer li h5{line-height:36px;height:36px;overflow:hidden;font-size:12px;font-weight:normal; text-align:center}
+.productshow .scrollcontainer li h5 a{color:#484848}
+.productshow .scrollcontainer li h5 a:hover{color:#105808}
+.abtn{width:15px;height:32px;display:block;position:absolute;top:70px; display:none}
+.aleft{background-position:-947px 2px ;left:20px;display:none}
+.aright{background-position:-984px 2px;right:20px;display:none}
+.footer{height:65px; background:#105808; margin-top:20px; padding-top:15px}
+.footer p{color:#fff; line-height:26px; text-align:center}
+.footer p a{color:#fff}
+.footer p span{font-family:arial}
+.insideR .page{text-align:center; margin:30px 0; clear:both}
+.insideR .page a{color:#484848}
+.insideR .page a:hover{color:#105808}
+.k_pagelist{clear:both; margin-top:30px; text-align:center}
+.k_pagelist a{color:#484848; margin:0 5px}
+.k_pagelist a:hover{color:#105808}
+.k_pagelist em{font-style:normal; margin-right:3px}
+/*inside*/
+.insideL{width:220px; float:left; overflow:hidden}
+.insideL .subnav{border:1px #ccc solid; background:url(../images/titleBg.png) repeat-x; overflow:hidden}
+.insideL h2,.subC h2,.insideR h2{height:35px; line-height:30px; color:#105808; font-size:14px; background:url(../images/h2Bg.png) no-repeat; text-indent:15px}
+.insideL .subnav ul{padding:0 10px; padding-bottom:5px}
+.insideL .subnav ul li{height:34px; line-height:34px; color:#484848; background:url(../images/newsIcon.png) left center no-repeat; text-indent:10px;}
+.insideL .subnav ul li span{font-family:arial; color:#AAA; font-size:9px; margin-left:10px}
+.insideL .subnav ul li a{width:196px; height:34px; display:block;border-bottom:1px #ccc dashed; color:#484848}
+.insideL .subnav ul li a:hover{border-bottom:1px #105808 dashed; color:#105808}
+.insideL .subC{margin-top:10px;border:1px #ccc solid; background:url(../images/titleBg.png) repeat-x; padding-bottom:10px; overflow:hidden}
+.insideL .subC p{padding:0 10px; color:#484848; line-height:26px}
+.insideL .subC p span{font-family:arial}
+.insideL .subnav h2 span,.insideL .subC h2 span,.insideR h2 span{font-family:arial; font-size:10px;color:#999; margin-left:8px; font-weight:normal}
+.insideR{width:760px; float:right;border:1px #ccc solid; background:url(../images/titleBg.png) repeat-x; overflow:hidden; min-height:563px; _height:563px}
+.insideR p{padding:0 15px; line-height:26px; color:#484848}
+.insideR ul.news{padding:5px 20px}
+.insideR ul.news li{height:34px; line-height:34px; color:#484848; background:url(../images/newsIcon.png) left center no-repeat; text-indent:10px;}
+.insideR ul.news li a{width:720px; height:34px;display:block;border-bottom:1px #ccc dashed; color:#484848}
+.insideR ul.news li a:hover{border-bottom:1px #105808 dashed; color:#105808}
+.insideR ul.news li span{float:right; color:#999; font-family:arial}
+.insideR ul.product{overflow:hidden}
+.insideR ul.product li{float:left; width:166px;height:222px;text-align:center;margin:0 12px;_display:inline;overflow:hidden; margin-top:10px}
+.insideR ul.product li img{width:160px; height:180px; padding:2px; border:1px #eee solid}
+.insideR ul.product li p{height:36px; width:166px; text-align:center; line-height:36px; color:#484848; text-indent:0; padding:0}
+.insideR ul.product li p a{color:#484848; }
+.insideR ul.product li p a:hover{color:#105808}
+.insideR h3{color:#105808; font-size:14px; text-align:center; line-height:30px}
+/*gbook*/
+.gbook{margin-left:20px; color:#484848; width:350px; font-family:microsoft yahei}
+.gbook td{height:36px; text-align:left; padding:5px 0}
+.inputLong{height:24px; border:1px #ddd solid; line-height:24px; padding:0 5px; width:200px}
+.gbooktxt{width:300px; height:150px; border:1px #ddd solid; padding:10px}
+.login{width:86px; height:30px; line-height:30px; text-align:center; font-family:microsoft yahei; color:#fff; background:url(/muban/images/login.png) no-repeat; display:block; border:none; cursor:pointer}
+.a1 { color:#FF3300;} 

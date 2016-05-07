@@ -1,0 +1,65 @@
+{template "content","header"}
+<div class="bnr_bg">
+  <div class="bnr_c center clear"> <a href="" class="baoming" target="_blank"></a> </div>
+</div>
+<div class="piped">
+  <div class="pipedinfo">
+  <li>
+	{pc:announce  action="lists" siteid="$siteid" num="1"}
+{loop $data $r}
+<a href="{APP_PATH}index.php?m=announce&c=index&a=show&aid={$r['aid']}">{$r['title']}</a>
+{/loop}
+{/pc}
+	</li>
+  </div>
+</div>
+<div class="art_bg w950 center">
+  <div class="art_bg_top"></div>
+  <div class="art_content">
+    <div class="art_place_sub"><strong>当前位置:</strong><a href="{siteurl($siteid)}">首页</a><span> &gt; </span>{catpos($catid)} </div>
+    <div class="arttitle">{$title}</div>
+    <div class="subheading"></div>
+    <div class="art_time">时间：{$inputtime}</div>
+    <div class="content center clear">
+      <table width='100%'>
+        <tr>
+          <td>{$content}</td>
+        </tr>
+      </table>
+    </div>
+    <div class="dede_pages">
+      <ul class="pagelist">
+	  <li>{$pages}</li>
+      </ul>
+    </div>
+    <div class="ctrlplan center clear">
+      <div class="c_left">当前位置:</strong><a href="{siteurl($siteid)}">首页</a><span> &gt; </span>{catpos($catid)} </div>
+      <div class="c_right">
+        <ul>
+          <li class="jiathis">
+            <!-- JiaThis Button BEGIN -->
+<div id="ckepop">
+	<span class="jiathis_txt">分享到：</span>
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_renren"></a>
+	<a class="jiathis_button_kaixin001"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" src="http://v2.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="context center clear">
+      <ul>
+        <li>上一篇：<a href="{$previous_page[url]}">{$previous_page[title]}</a> </li>
+        <li>下一篇：<a href="{$next_page[url]}">{$next_page[title]}</a> </li>
+      </ul>
+    </div>
+  </div>
+  <div class="art_bg_bottom"></div>
+</div>
+{template "content","footer"}

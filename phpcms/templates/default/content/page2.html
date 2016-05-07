@@ -1,0 +1,71 @@
+
+{template "content","header"}
+<script src="/muban/Scripts/swfobject_modified.js" type="text/javascript"></script>
+
+<div class="base mt10" id="here">
+<div class="insideL">
+        <div class="subnav">
+        <h2>快速导航</h2>
+        <ul>
+		
+{loop $arrchild_arr $cid}
+                <li><a href="{$CATEGORYS[$cid][url]}">{$CATEGORYS[$cid][catname]}</a></li>
+{/loop}		
+    
+        </ul>
+        </div>
+        <div class="subC">
+        <h2>联系我们</h2>
+<p>地址：河南省濮阳市清水河工业区</p>
+<p>电话：<span>0393-2828666</span>  <span> 2828777</span> </p>
+<p> 传真：<span>0393-2828666</span></p>
+<p> 邮编：<span>457600</span></p>
+<p> 网址：<span>www.duwentao.com</span></p>
+<p> E-mail：<span>2842158@163.com</span></p>
+        </div>
+</div>
+<div class="insideR">
+<h2>{$title}</h2>
+<p style="float:left; margin-left:10px">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" 
+codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" height="200" width="300"> 
+<param name="movie" 
+value="http://www.baishuomianye.com/images/vcastr22.swf?vcastr_file=http://www.baishuomianye.com/images/video.flv"> 
+<param name="quality" value="high"> 
+<param name="allowFullScreen" value="true" /> 
+<embed 
+src="http://www.baishuomianye.com/images/vcastr22.swf?vcastr_file=http://www.baishuomianye.com/images/video.flv" 
+quality="high" 
+pluginspage="http://www.macromedia.com/go/getflashplayer" 
+type="application/x-shockwave-flash" width="300" height="200"> 
+</embed> 
+</object>
+</p>
+
+<div id="onepage" style="text-align:left">
+
+{$content}
+
+</div>
+</div>
+</div>
+
+{template "content","footer"}
+
+<script type="text/javascript" src="/muban/Scripts/Xslider.js"></script>
+<script src="/muban/Scripts/BannerChange.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function(){
+	$(".productshow").Xslider({
+		unitdisplayed:1,
+		numtoMove:1,
+		loop:"cycle",
+		autoscroll:2000 
+	});
+	
+})
+$("a").attr('href',function(i,ov){return ov+'#here';});
+swfobject.registerObject("FLVPlayer");
+</script>
+ </body>
+</html>

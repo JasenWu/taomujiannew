@@ -1,0 +1,67 @@
+{template "content","header"}
+<div class="bnr_bg">
+  <div class="bnr_c center clear"> <a href="" class="baoming" target="_blank"></a> </div>
+</div>
+<div class="piped">
+  <div class="pipedinfo">
+  <li>
+	{pc:announce  action="lists" siteid="$siteid" num="1"}
+{loop $data $r}
+<a href="{APP_PATH}index.php?m=announce&c=index&a=show&aid={$r['aid']}">{$r['title']}</a>
+{/loop}
+{/pc}
+	</li>
+  </div>
+</div>
+<div class="w950 center">
+  <div class="art_bg w950 center">
+    <div class="art_bg_top"></div>
+    <div class="art_content">
+      <div class="sub_list">
+        <div class="ltitle">校园风采</div>
+        <ul class="topic">
+          <li><a href='' class='thisclass'>校园环境</a></li>
+          <li><a href='{siteurl($siteid)}/photograph/xueyuanhuodong/'>学员活动</a></li>
+        </ul>
+        <div class="ltitle">联系我们</div>
+        <ul class="contact">
+          招生就业办<br />
+          联系人：宗老师<br />
+          联系电话：0931-8857166<br />
+          E-mail:zongyinxia@gszjedu.com<br />
+          在线咨询： <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1552807003&site=qq&menu=yes"><img border="0" src="{IMG_PATH}pa000000.gif" alt="点击这里给我发消息"></a> <br />
+          <br />
+          教学管理中心<br />
+          联系人：徐老师<br />
+          联系电话：0931-8840266<br />
+          E-mail：xujinshui@gszjedu.com
+        </ul>
+      </div>
+      <div class="pleft">
+        <div class="place"><a href="{siteurl($siteid)}">首页</a><span> > </span>{catpos($catid)}</div>
+        <div class="teachlist">
+          <ul class="environ_list">
+		  {pc:content  action="list" catid="$catid" thumb="1" order="listorder DESC" num="6"}
+           {loop $data $r}
+            <li>
+              <div class="imgbox"><a href='{$r[url]}'><img src='{thumb($r[thumb])}' width="202" height="140"/></a></div>
+              <div class="title"><a href="{$r[url]}">{$r[title]}</a></div>
+            </li>
+{/loop}
+{/pc}
+          </ul>
+        </div>
+        <div class="dede_pages">
+          <ul class="pagelist">
+            <li>{$pages}</li>
+          </ul>
+        </div>
+        <div class="to_top">
+         <h2><a href="{siteurl($siteid)}">返回首页</a><a href=""><img src="{IMG_PATH}top-btn0.gif" /></a></h2>
+        </div>
+      </div>
+    </div>
+    <div class="art_bg_bottom"></div>
+  </div>
+</div>
+{template "content","footer"}
