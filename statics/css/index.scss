@@ -100,6 +100,7 @@ $global-icons:url('../../statics/images/subject/images/globalicon.png') no-repea
   }
 }
 .banner{
+  padding: 10px 0;
 
   .pic img{width:100%;height:400px;}
   ul,li{padding: 0;}
@@ -163,10 +164,38 @@ $global-icons:url('../../statics/images/subject/images/globalicon.png') no-repea
       padding: 15px;
       background: #f4ecd7;
       border-radius: 5px;
+      color:$gray;
+
+    }
+
+    .news{
+
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      overflow: hidden;
+        li{
+          a{
+            color:$gray;
+            display: block;
+            .item{
+              background: $global-icons;
+              background-position: -16px -49px;
+              width: 6px;
+              height: 6px;
+              float: left;
+              margin-top: 5px;
+
+            }
+          }
+        }
+
 
     }
   }
 }
+
+
 .footer{
   height: 117px;
   color:white;

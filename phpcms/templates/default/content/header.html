@@ -7,7 +7,10 @@
 <meta name="keywords" content="{$SEO['keyword']}">
 <meta name="description" content="{$SEO['description']}">
 <link href="{CSS_PATH}index.css" rel="stylesheet" type="text/css" />
-
+<script type="text/javascript" src="{JS_PATH}jquery.min.js"></script>
+<script>
+	var jq=$.noConflict();
+</script>
 
 </head>
 <body>
@@ -47,19 +50,19 @@
 			<div class="col-md-12">
 				<ul>
 					<li class="pull-left">
-						<a href="/">首页</a>
+						<a href="index.php">首页</a>
 					</li>
 					<li class="pull-left">
-						<a href="/">公司简介</a>
+						<a href="index.php?m=content&c=index&a=lists&catid=9">关于我们</a>
 					</li>
 					<li class="pull-left">
-						<a href="/">产品中心</a>
+						<a href="index.php?m=content&c=index&a=lists&catid=12">产品中心</a>
 					</li>
 					<li class="pull-left">
-						<a href="/">成功案例</a>
+						<a href="index.php?m=content&c=index&a=lists&catid=8">成功案例</a>
 					</li>
 					<li class="pull-left">
-						<a href="/">联系我们</a>
+						<a href="index.php?m=content&c=index&a=lists&catid=13">联系我们</a>
 					</li>
 
 

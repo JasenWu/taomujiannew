@@ -3,13 +3,154 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=7" />
-<title>PHPCMS演示站</title>
-<meta name="keywords" content="PHPCMS演示站">
-<meta name="description" content="PHPCMS演示站">
+<title>上海桃木剑科技有限公司</title>
+<meta name="keywords" content="上海桃木剑科技有限公司">
+<meta name="description" content="上海桃木剑科技有限公司">
 <link href="http://localhost/taomujiannew/statics/css/index.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="http://localhost/taomujiannew/statics/js/jquery.min.js"></script>
+
 
 </head>
 <body>
-vff
+<header class="header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+
+				<img src="http://localhost/taomujiannew/statics/images/subject/images/logo.png" class="img-responsive">
+			</div>
+			<div class="col-md-6">
+
+				<div class="pull-right change-lan">
+					<div class="f-oh lan">
+						<a class="">
+							<div class="icon chinese"></div>
+							<b>中文版</b>
+						</a>
+						<a class="">
+							<div class="icon english"></div>
+							<b>ENGLISH</b>
+						</a>
+					</div>
+					<div class="tel f-oh">
+						<div class="tel-icon">TEL：</div>
+						<div class="tel-num">86-21-5433357</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</header>
+<nav class="nav">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<ul>
+					<li class="pull-left">
+						<a href="index.php">首页</a>
+					</li>
+					<li class="pull-left">
+						<a href="index.php?m=content&c=index&a=lists&catid=9">关于我们</a>
+					</li>
+					<li class="pull-left">
+						<a href="index.php?m=content&c=index&a=lists&catid=12">产品中心</a>
+					</li>
+					<li class="pull-left">
+						<a href="index.php?m=content&c=index&a=lists&catid=8">成功案例</a>
+					</li>
+					<li class="pull-left">
+						<a href="index.php?m=content&c=index&a=lists&catid=13">联系我们</a>
+					</li>
+
+
+
+				</ul>
+			</div>
+		</div>
+
+	</div>
+</nav>
+
+
+ 
+</div><div class="banner">
+    <div class="slider js-slider3">
+        <ul class="pic js-slider-img-wrap">
+            <li><a title="大将军新服" href="#"><img width="437" height="306" src="http://localhost/taomujiannew/statics/images/subject/images/banner.jpg" alt=""></a></li>
+            <li><a title="铁血大宋新服" href="#"><img width="437" height="306" src="http://localhost/taomujiannew/statics/images/2.jpg" alt=""></a></li>
+            <li><a title="梦幻之城新服" href="#"><img width="437" height="306" src="http://localhost/taomujiannew/statics/images/4.jpg" alt=""></a></li>
+        </ul>
+        <ul class="num js-slider-num-wrap">
+            <li class="cur">1<div class="tip">demo1</div><div class="triangle">sj</div></li>
+            <li class="">2<div class="tip">demo2 </div><div class="triangle">sj</div></li>
+            <li class="">4<div class="tip">demo4 </div><div class="triangle">sj</div></li>
+        </ul>
+    </div><!-- .slider -->
+
+</div>
+<article class="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="http://localhost/taomujiannew/statics/images/subject/images/technology.png"/>
+            </div>
+            <div class="col-md-4">
+                <img src="http://localhost/taomujiannew/statics/images/subject/images/manufacturing.png"/>
+            </div>
+            <div class="col-md-4">
+                <img src="http://localhost/taomujiannew/statics/images/subject/images/salse&service.png"/>
+            </div>
+
+        </div>
+    </div>
+    <div class="three-column">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <title>
+                        关于我们
+                    </title>
+                    <article>
+                        海桃木剑电子科技有限公司坐落于中国上海，依托上海强大的科研和工业技术优势，长期致力于各类防盗标签产吕的研发和制作长期致力于各类防盗标签产吕的研发和制作长期致力于各类防盗标签产吕的研发和制作长期致力于各类防盗标签产吕的研发和制作。通过公司七年的努力和发展，已经成为集研发、生产销售为一体...
+                    </article>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</article>
+
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="content text-center">
+					上海桃木剑电子科技有限公司 页面版权所有 © Casal Corporation 2016 All Rights Reserved.<br />
+					ICP备案:《中华人民共和国电信与信息服务业务经营许可证》 编号：沪ICP备14016848号<br />
+					网站制作：仁杰互联
+				</div>
+
+			</div>
+		</div>
+	</div>
+</footer>
 </body>
+</html>
+<script src="http://localhost/taomujiannew/statics/js/zepto.js"></script>
+<script src="http://localhost/taomujiannew/statics/js/zepto.slider-min.js"></script>
+<script>
+    $(function(){
+        function rightVal(){
+            var winWidth = parseInt($(window).width()),
+                    focusWidth = parseInt($(".js-slider-num-wrap").width());
+            return  (winWidth - focusWidth) / 2;
+        }
+        $(".js-slider-num-wrap").css("right",+rightVal()+"px").css("bottom","10px");
+
+        $(".js-slider3").slider({direction: "left"});
+
+    })
+
+</script>
