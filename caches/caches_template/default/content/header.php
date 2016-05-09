@@ -7,7 +7,7 @@
 <meta name="keywords" content="<?php echo $SEO['keyword'];?>">
 <meta name="description" content="<?php echo $SEO['description'];?>">
 <link href="<?php echo CSS_PATH;?>index.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="<?php echo JS_PATH;?>jquery.min.js"></script>
+
 
 </head>
 <body>

@@ -1,3 +1,5 @@
 /caches
 
 /statics/plugin/.DS_Store
+
+.idea/workspace.xml

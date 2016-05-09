@@ -730,3 +730,11 @@
 <?php exit;?>05-07 17:03:13 | 2 | chmod(): Operation not permitted | phpcms/modules/formguide/classes/formguide.class.php | 35
 <?php exit;?>05-07 17:03:14 | 2 | fsockopen(): php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known | phpcms/libs/classes/http.class.php | 84
 <?php exit;?>05-07 17:03:14 | 2 | fsockopen(): unable to connect to juhe.phpcms.cn:80 (php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known) | phpcms/libs/classes/http.class.php | 84
+<?php exit;?>05-09 11:03:09 | 2 | chmod(): Operation not permitted | phpcms/libs/classes/template_cache.class.php | 43
+<?php exit;?>05-09 11:03:19 | 2 | chmod(): Operation not permitted | phpcms/libs/classes/template_cache.class.php | 43
+<?php exit;?>05-09 11:04:19 | 2 | chmod(): Operation not permitted | phpcms/libs/classes/template_cache.class.php | 43
+<?php exit;?>05-09 11:05:24 | 2 | chmod(): Operation not permitted | phpcms/libs/classes/template_cache.class.php | 43
+<?php exit;?>05-09 11:05:52 | 2 | chmod(): Operation not permitted | phpcms/libs/classes/template_cache.class.php | 43
+<?php exit;?>05-09 11:08:13 | 2 | chmod(): Operation not permitted | phpcms/libs/classes/template_cache.class.php | 43
+<?php exit;?>05-09 11:08:46 | 2 | chmod(): Operation not permitted | phpcms/libs/classes/template_cache.class.php | 43
+<?php exit;?>05-09 11:09:37 | 2 | chmod(): Operation not permitted | phpcms/libs/classes/template_cache.class.php | 43
