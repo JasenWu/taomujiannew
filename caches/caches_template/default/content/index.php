@@ -91,3 +91,7 @@
 <script src="<?php echo JS_PATH;?>zepto.js"></script>
 <script src="<?php echo JS_PATH;?>zepto.slider-min.js"></script>
 <script src="<?php echo JS_PATH;?>index.js"></script>
+
+
+<script type="text/javascript" src="<?php echo JS_PATH;?>jquery.min.js"></script>
+<script type="text/javascript" src="<?php echo JS_PATH;?>jquery.SuperSlide.2.1.1.source.js"></script>

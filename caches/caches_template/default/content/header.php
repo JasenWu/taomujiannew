@@ -7,10 +7,8 @@
 <meta name="keywords" content="<?php echo $SEO['keyword'];?>">
 <meta name="description" content="<?php echo $SEO['description'];?>">
 <link href="<?php echo CSS_PATH;?>index.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="<?php echo JS_PATH;?>jquery.min.js"></script>
-<script>
-	var jq=$.noConflict();
-</script>
+
+
 
 </head>
 <body>
@@ -56,7 +54,7 @@
 						<a href="index.php?m=content&c=index&a=lists&catid=9">关于我们</a>
 					</li>
 					<li class="pull-left">
-						<a href="index.php?m=content&c=index&a=lists&catid=12">产品中心</a>
+						<a href="index.php?m=content&c=index&a=lists&catid=14">产品中心</a>
 					</li>
 					<li class="pull-left">
 						<a href="index.php?m=content&c=index&a=lists&catid=8">成功案例</a>

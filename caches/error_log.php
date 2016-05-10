@@ -803,3 +803,7 @@
 <?php exit;?>05-09 16:21:09 | 2 | chmod(): Operation not permitted | phpcms/modules/formguide/classes/formguide.class.php | 35
 <?php exit;?>05-09 16:21:09 | 2 | chmod(): Operation not permitted | phpcms/modules/formguide/classes/formguide.class.php | 35
 <?php exit;?>05-09 20:02:14 | 2 | chmod(): Operation not permitted | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>05-10 14:30:59 | 2 | extract() expects parameter 1 to be array, null given | phpcms/modules/content/classes/html.class.php | 182
+<?php exit;?>05-10 14:31:17 | 2 | extract() expects parameter 1 to be array, null given | phpcms/modules/content/classes/html.class.php | 182
+<?php exit;?>05-10 14:31:53 | 2 | chmod(): Operation not permitted | phpcms/modules/content/classes/html.class.php | 364
+<?php exit;?>05-10 15:51:20 | 2 | chmod(): Operation not permitted | phpcms/modules/content/classes/html.class.php | 364
